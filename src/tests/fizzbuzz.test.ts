@@ -3,7 +3,7 @@ import { fizzbuzzCalculator } from '../core/fizzbuzz';
 // 3 -> fizz --> DONE
 // 5 -> buzz --> DONE
 // 15 -> fizzbuzz --> DONE
-// n % 3 = 0 -> fizz
+// n % 3 = 0 -> fizz --> DONE
 // n % 5 = 0 -> buzz
 // n % 15 = 9 -> fizzbuz
 // other nums -> nums
@@ -28,5 +28,9 @@ describe('fizzbuzz kata', () => {
 
   it('given a number divisible by 3 returns fizz', () => {
     expect(fizzbuzzCalculator(6)).toBe('fizz');
+  });
+
+  it('given a number divisible by 5 returns buzz', () => {
+    expect(fizzbuzzCalculator(10)).toBe('buzz');
   });
 });
