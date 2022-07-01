@@ -1,5 +1,5 @@
 import { fizzbuzzCalculator } from '../core/fizzbuzz';
-// 1 -> 1
+// 1 -> 1 --> DONE
 // 3 -> fizz
 // 5 -> buzz
 // 15 -> fizzbuzz
@@ -12,5 +12,9 @@ import { fizzbuzzCalculator } from '../core/fizzbuzz';
 describe('fizzbuzz kata', () => {
   it('given 1 returns 1', () => {
     expect(fizzbuzzCalculator(1)).toBe(1);
+  });
+
+  it('given 3 returns fizz', () => {
+    expect(fizzbuzzCalculator(3)).toBe('fizz');
   });
 });
