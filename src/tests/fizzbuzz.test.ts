@@ -2,18 +2,30 @@ import { fizzbuzzCalculator } from '../core/fizzbuzz';
 
 describe('fizzbuzz kata', () => {
   it('given a number divisible by 3 returns fizz', () => {
-    expect(fizzbuzzCalculator(6)).toBe('fizz');
+    const expected = 'fizz';
+    const currentValue = 6;
+
+    expect(fizzbuzzCalculator(currentValue)).toBe(expected);
   });
 
   it('given a number divisible by 5 returns buzz', () => {
-    expect(fizzbuzzCalculator(10)).toBe('buzz');
+    const expected = 'buzz';
+    const currentValue = 10;
+
+    expect(fizzbuzzCalculator(currentValue)).toBe(expected);
   });
 
   it('given a number divisible by 3 and 5 returns fizzbuzz', () => {
-    expect(fizzbuzzCalculator(30)).toBe('fizzbuzz');
+    const expected = 'fizzbuzz';
+    const currentValue = 30;
+
+    expect(fizzbuzzCalculator(currentValue)).toBe(expected);
   });
 
   it('given a number not divisible by 3 and 5 returns the number', () => {
-    expect(fizzbuzzCalculator(31)).toBe(31);
+    const expected = 31;
+    const currentValue = 31;
+
+    expect(fizzbuzzCalculator(currentValue)).toBe(expected);
   });
 });
