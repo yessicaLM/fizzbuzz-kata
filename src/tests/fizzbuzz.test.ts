@@ -1,3 +1,4 @@
+import { fizzbuzzCalculator } from '../core/fizzbuzz';
 // 1 -> 1
 // 3 -> fizz
 // 5 -> buzz
@@ -6,6 +7,7 @@
 // n % 5 = 0 -> buzz
 // n % 15 = 9 -> fizzbuz
 // other nums -> nums
+
 
 describe('fizzbuzz kata', () => {
   it('given 1 returns 1', () => {
