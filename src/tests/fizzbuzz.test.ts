@@ -17,4 +17,8 @@ describe('fizzbuzz kata', () => {
   it('given 3 returns fizz', () => {
     expect(fizzbuzzCalculator(3)).toBe('fizz');
   });
+
+  it('given 5 returns buzz', () => {
+    expect(fizzbuzzCalculator(5)).toBe('buzz');
+  });
 });
