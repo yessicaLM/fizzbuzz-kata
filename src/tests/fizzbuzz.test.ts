@@ -37,4 +37,8 @@ describe('fizzbuzz kata', () => {
   it('given a number divisible by 3 and 5 returns fizzbuzz', () => {
     expect(fizzbuzzCalculator(30)).toBe('fizzbuzz');
   });
+
+  it('given a number not divisible by 3 and 5 returns the number', () => {
+    expect(fizzbuzzCalculator(31)).toBe(31);
+  });
 });
