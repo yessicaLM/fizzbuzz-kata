@@ -5,8 +5,8 @@ import { fizzbuzzCalculator } from '../core/fizzbuzz';
 // 15 -> fizzbuzz --> DONE
 // n % 3 = 0 -> fizz --> DONE
 // n % 5 = 0 -> buzz --> DONE
-// n % 15 = 9 -> fizzbuz
-// other nums -> nums
+// n % 15 = 9 -> fizzbuz --> DONE
+// other nums -> nums --> DONE
 
 
 describe('fizzbuzz kata', () => {
