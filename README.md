@@ -16,7 +16,13 @@ Fizzbuzz implements a function that returns 'fizz', 'buzz', fizzbuzz' or the giv
 - **n % 15 === 0** --> 'fizzbuzz'
 - **any other number** --> number
 
-## Run test
+## Run project
+Install project dependencies:
+
+`
+npm install
+`
+
 To run all test in watch mode, run next command:
 
 `
